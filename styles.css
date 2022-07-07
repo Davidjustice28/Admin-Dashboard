@@ -1,0 +1,187 @@
+#page-container {
+    display:flex;
+    width:100%;
+    height:100vh;
+    border:2px solid green;
+    font-family:Roboto;
+}
+
+nav {
+    width:25vw;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    gap:35px;
+    align-items:center;
+    background-color:#4b9fe3;
+    color:white; 
+    font-weight:1000;
+}
+
+#content {
+    width:100vw;
+    height:100vh;
+    border:2px solid gray;
+    display:flex;
+    flex-direction:column;
+}
+
+#nav-title {
+    width:80%;
+    height:50px;
+    display:flex;
+    align-items:center;
+    gap:5px;
+
+}
+
+#nav-one {
+    width:80%;
+    height:35%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    font-size:16px;
+}
+
+#nav-two {
+    width:80%;
+    height:17%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    font-size:16px;
+}
+
+#header {
+    width:100%;
+    height:17%; 
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+}
+
+#main-body {
+    border:1px solid yellow;
+    width:100%;
+    height:83%;
+    display:flex;
+    background-color:silver;
+}
+
+#project-section {
+    border:1px solid black;
+    width:70%;
+    height:100%; 
+}
+
+#side-sections {
+    border:1px solid black;
+    width:30%;
+    height:100%; 
+
+}
+
+.menu-items {
+    display:flex;
+    align-items:center;
+    gap:5px;
+} 
+
+#top-row {
+    height:40%;
+    width:100%
+    font-size:2px;
+    display:flex;
+}
+
+#bottom-row {
+    height:60%;
+    width:100%;
+    display:flex;
+}
+
+#search-bar {
+    display:flex;
+    font-size:8px;
+    width:70%;
+    align-items:center;
+}
+
+#search-bar input {
+    background-color:silver;
+    width:68%;
+    height:25px;
+    margin-left:12px;
+    border-radius:15px;
+} 
+
+#search-bar span {
+    margin-left:23px;
+} 
+
+#top-right {
+    display:flex; 
+    font-size:8px;
+    width:30%;
+    align-items:center;
+    gap:15px;
+    
+}
+
+#top-right img {
+    width:40px;
+    height:40px;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+#bottom-left {
+    display:flex;
+    width:56%;
+    height:100%;
+    align-items:center;
+}
+
+#home-username {
+    font-size:20px;
+    font-weight:bold;
+}
+
+#bottom-left p {
+     font-size:10px;
+     font-weight:bold;
+} 
+#welcome-message {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-left:5px;
+} 
+
+#buttons {
+    display:flex;
+    width:42%;
+    height:100%;
+    justify-content:left;
+    align-items:center;
+    gap:20px;
+}
+
+#buttons button {
+    width:100px;
+    height:35px;
+    font-size:15px;
+    background-color:#4b9fe3;
+    color:white;
+    border-radius:17px;
+} 
+
+#bottom-left img {
+    width:60px;
+    height:60px;
+    border-radius:30px;
+    margin-left:45px;
+} 
+    
+ 
